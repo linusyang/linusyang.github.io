@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+Allow: /blog
+Allow: /blog-en

@@ -1,0 +1,52 @@
+/*
+  Manifest root site extra support
+  Author: Linus Yang
+  Credits: http://emergentweb.com/test/valign.html
+*/
+
+body { 
+    height: 100%; 
+}
+
+.centerWrapperOut {
+    width: 100%;
+    padding: 0;
+    display: table;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.centerWrapperMid {
+    padding: 0;
+    vertical-align: middle;
+    display: table-cell;
+    margin: 0;
+}
+
+.centerWrapperInn {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#siteDescription{
+    font-size: 1.7em;
+    margin: auto;
+}
+
+h1{
+    margin: 10px 0 10px;
+    font-size: 4.0em;
+}
+
+#mainNav{
+    margin-top: 40px;
+    background: #FFFFFF;
+}
+
+#mainNav li{
+    font-size: 1.7em;
+}

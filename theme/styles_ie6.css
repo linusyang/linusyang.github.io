@@ -1,0 +1,8 @@
+/*
+  Manifest Wordpress theme IE6 support message
+*/
+
+body{
+  background: #fff url(images/ie6.gif) no-repeat 50% top;
+  padding-top: 120px;
+}

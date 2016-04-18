@@ -1,0 +1,22 @@
+/*
+  Manifest root site extra support for IE 7 and older
+  Author: Linus Yang
+  Credits: http://emergentweb.com/test/valign.html
+*/
+
+.centerWrapperOut {
+    top: 0;
+    display: inline-block;
+}
+
+.centerWrapperMid {
+    display: inline-block;
+    top: 50%;
+    position: relative;
+}
+
+.centerWrapperInn {
+    display: inline-block;
+    top: -50%;
+    position: relative;
+}

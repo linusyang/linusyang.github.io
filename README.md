@@ -1,1 +1,4 @@
-# linusyang.github.io
+Linus Yang's Blog
+========
+Blog powered by Pelican and Python
+
