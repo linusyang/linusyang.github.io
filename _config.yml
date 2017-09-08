@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 paginate: 10
 paginate_path: "/archives/:num/"
 plugins: [jekyll-paginate]
-exclude: ['test.sh', 'README.md']
+exclude: ['test.sh', 'README.md', '.gitignore']
 
 # Third-party services
 # just leave blank to disable it
