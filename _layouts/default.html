@@ -8,8 +8,8 @@
     <div class="page-content">
       {{ content }}
     </div>
+    <div class="site-footer">&copy; {% if site.fromyear %}{{ site.fromyear }}-{% endif %}{{ site.time | date: '%Y' }} {{ site.title }}, {{ site.author }}</div>
     {% include ga.html %}
     {% include latex.html %}
-    <div class="site-footer">&copy; {% if site.fromyear %}{{ site.fromyear }}-{% endif %}{{ site.time | date: '%Y' }} {{ site.title }}, {{ site.author }}</div>
   </body>
 </html>
