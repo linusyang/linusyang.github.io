@@ -123,6 +123,7 @@ code {
 code {
     padding: 1px 5px;
     font-family: $code-font-family;
+    font-size: 85%;
 }
 
 pre {
@@ -195,8 +196,11 @@ hr {
 
 
 /**
- * MathJax
+ * Date
  */
-.MathJax {
-    outline: none;
+time {
+    font-family: $code-font-family;
+    font-size: 90%;
+    letter-spacing: -.03em;
+    word-spacing: -.15em;
 }

@@ -4,14 +4,24 @@
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem 1.5rem;
+}
+
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    font-size: small;
+    font-family: $serif-font-family;
 }
 
 .site-title {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 300;
-    letter-spacing: -1px;
+    letter-spacing: .03em;
+    word-spacing: .1em;
     color: $grey-color-dark;
+    font-family: $serif-font-family;
 
     &,
     &:hover {
@@ -38,14 +48,16 @@
  * Pages
  */
 .home {
-    section + section {
+    p + h2 {
         margin-top: $spacing-unit;
     }
 }
 
-.smallcap {
+.home h2 {
     text-transform: lowercase;
     font-variant: small-caps;
+    letter-spacing: .03em;
+    word-spacing: .1em;
 
     &::first-letter {
         text-transform: uppercase;
@@ -63,7 +75,11 @@
     }
 }
 
-
+.pagination {
+    letter-spacing: -.03em;
+    word-spacing: .2em;
+    font-size: small;
+}
 
 /**
  * Posts
@@ -74,8 +90,8 @@
 
 .post-title {
     font-size: 2rem;
-    letter-spacing: -1px;
     line-height: 1;
+    font-family: $serif-font-family;
 }
 
 .post-meta {

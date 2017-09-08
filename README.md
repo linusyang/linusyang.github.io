@@ -1,7 +1,4 @@
-# slim
+Linus Yang's Blog
+========
+Blog powered by Pelican and Python
 
-slim is just a slim jekyll theme. [Demo](http://syaning.com/slim).
-
-### License
-
-MIT

@@ -5,8 +5,10 @@
 
 
 // Our variables
-$base-font-family: "Cutive Mono", "Courier New", "Helvetica Neue", Helvetica, FangSong, STFangsong, sans-serif;
-$code-font-family: "Courier New", Consolas, monopace, FangSong, STFangsong;
+$serif-font-family: palatino, "Palatino Linotype", Georgia, Songti, "Microsoft YaHei", serif;
+$sans-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Microsoft YaHei", Georgia, sans-serif;
+$base-font-family: $sans-font-family;
+$code-font-family: "SF Mono", Menlo, "DejaVu Sans Mono", Consolas, "Courier New", monopace;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  0.875rem;
@@ -45,7 +47,6 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-		url(https://fonts.googleapis.com/css?family=Cutive+Mono),
         "base",
         "layout",
         "syntax-highlighting"

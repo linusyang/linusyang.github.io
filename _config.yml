@@ -1,17 +1,22 @@
 # Site settings
-title: slim
-baseurl: "/slim"
-url: "http://syaning.com"
+title: Circular Ruins
+author: Linus Yang
+fromyear: 2011
+baseurl: ""
+url: "https://linusyang.com"
 
 # Build settings
 kramdown:
   input: GFM
 permalink: pretty
+paginate: 10
+paginate_path: "/archives/:num/"
+plugins: [jekyll-paginate]
 
 # Third-party services
 # just leave blank to disable it
 google_analytics: 
-disqus_shortname: 
+disqus_shortname: linusyang
 
 # Utils
-mathjax: true
+latex: true
