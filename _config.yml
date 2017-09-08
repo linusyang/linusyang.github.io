@@ -9,9 +9,11 @@ url: "https://linusyang.com"
 kramdown:
   input: GFM
 permalink: pretty
+timezone: Asia/Shanghai
 paginate: 10
 paginate_path: "/archives/:num/"
 plugins: [jekyll-paginate]
+exclude: ['test.sh', 'README.md']
 
 # Third-party services
 # just leave blank to disable it
