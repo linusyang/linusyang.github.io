@@ -115,15 +115,12 @@ blockquote {
 /**
  * Code formatting
  */
-pre,
-code {
-    background-color: #fcfcfc;
-}
-
 code {
     padding: 1px 5px;
     font-family: $code-font-family;
     font-size: 85%;
+    border-radius: 3px;
+    background-color: rgba(27,31,35,0.05);
 }
 
 pre {
@@ -136,6 +133,7 @@ pre {
         padding-right: 0;
         padding-left: 0;
         tab-size: 4;
+        background-color: transparent;
     }
 }
 
